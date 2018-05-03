@@ -85,7 +85,7 @@ class SendTransaction extends React.Component<SendTransaction.Props, State> {
                 onChangeText={toAddress => this.setState({ toAddress })} />
             </Item>
             <Item styleNames='fixedLabel' style={{ marginLeft: 15, minWidth: 300 }}>
-              <Label>PPC</Label>
+              <Label>SPRK</Label>
               <Input
                 keyboardType='numeric'
                 placeholder='0.00'

@@ -13,13 +13,13 @@ var pb = require('./peerassets_pb');
 function getDeckSpawnTagHash(PPCtestnet = false, PAtest = false) {
   // Setup the deck spawn tag hash
   if (!PPCtestnet && !PAtest)
-    return 'PAprodbYvZqf4vjhef49aThB9rSZRxXsM6'
+    return 'SatuPf4wo1JxrWFK62q7Jm8ZwYTDvXMT1n'
   else if (!PPCtestnet && PAtest)
-    return 'PAtesth4QreCwMzXJjYHBcCVKbC4wjbYKP'
+    return 'SinPAWasqVVcoEcw7ymSH5PSFNZNZa2mkm'
   else if (PPCtestnet && !PAtest)
-    return 'miHhMLaMWubq4Wx6SdTEqZcUHEGp8RKMZt'
+    return 'tHeAnCNaQarB92WpCAHC8kRs79FhJvcjgA'
   else if (PPCtestnet && PAtest)
-    return 'mvfR2sSxAfmDaGgPcmdsTwPqzS6R9nM5Bo'
+    return 'tTbbxyd6o9qTsUoYChay6aYtzVpreAiGHV'
 }
 
 const defaultConfig = {

@@ -59,7 +59,7 @@ export type CardTransfer = {
 const bigPage = { results_per_page: 10000 }
 
 class Papi {
-  explorerUrl =  /*/ 'http://localhost:5555' /*/ 'https://papi.peercoin.net' /**/
+  explorerUrl =  'https://papi.sparklecoin.com';
   version = 1
   get apiUrl(){
     return `${this.explorerUrl}/api/v${this.version}`

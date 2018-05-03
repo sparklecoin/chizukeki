@@ -16,20 +16,20 @@ import configure from '../configure'
 //
 
 bitcore.Networks.add({
-    name: 'peercoin',
-    alias: 'ppcoin',
-    pubkeyhash: 0x37,
-    privatekey: 0xb7,
-    scripthash: 0x75,
+    name: 'sparklecoin',
+    alias: 'sprk',
+    pubkeyhash: 0x3f,
+    privatekey: 0xbf,
+    scripthash: 0x7d,
     xpubkey: 0x0488b21e,
     xprivkey: 0x0488ade4,
   });
 
 bitcore.Networks.add({
-    name: 'peercoin-testnet',
-    alias: 'ppcoin-test',
-    pubkeyhash: 0x6f,
-    privatekey: 0xef,
+    name: 'sparklecoin-testnet',
+    alias: 'tsprk',
+    pubkeyhash: 0x7f,
+    privatekey: 0xff,
     scripthash: 0xc4,
     xpubkey: 0x043587cf,
     xprivkey: 0x04358394,
@@ -37,8 +37,8 @@ bitcore.Networks.add({
 
 bitcore.Networks.defaultNetwork = bitcore.Networks.get(
   configure.fromEnv().NETWORK === 'TESTNET' ?
-    'peercoin-testnet' :
-    'peercoin'
+    'sparklecoin-testnet' :
+    'sparklecoin'
 )
 
 //

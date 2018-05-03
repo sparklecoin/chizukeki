@@ -1,8 +1,8 @@
 const deckSpawnTagHashes = {
-  'MAINNET_PRODUCTION': 'PAprodbYvZqf4vjhef49aThB9rSZRxXsM6',
-  'MAINNET_TESTING': 'PAtesth4QreCwMzXJjYHBcCVKbC4wjbYKP',
-  'TESTNET_PRODUCTION': 'miHhMLaMWubq4Wx6SdTEqZcUHEGp8RKMZt',
-  'TESTNET_TESTING': 'mvfR2sSxAfmDaGgPcmdsTwPqzS6R9nM5Bo',
+  'MAINNET_PRODUCTION': 'SatuPf4wo1JxrWFK62q7Jm8ZwYTDvXMT1n',
+  'MAINNET_TESTING': 'SinPAWasqVVcoEcw7ymSH5PSFNZNZa2mkm',
+  'TESTNET_PRODUCTION': 'tHeAnCNaQarB92WpCAHC8kRs79FhJvcjgA',
+  'TESTNET_TESTING': 'tTbbxyd6o9qTsUoYChay6aYtzVpreAiGHV',
 }
 
 function getDeckSpawnTagHash(network: 'MAINNET' | 'TESTNET', mode: 'PRODUCTION' | 'TESTING'): string {

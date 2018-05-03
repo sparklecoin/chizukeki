@@ -68,7 +68,7 @@ class UnlockThenCopy extends React.Component<{ keys: Wallet.Keys }, { privateKey
 function Balance({ balance, ...props }) {
   return (
     <View {...props}>
-      <H2>{balance.toLocaleString('en')} PPC</H2>
+      <H2>{balance.toLocaleString('en')} SPRK</H2>
       <Text styleNames='note'>balance</Text>
     </View>
   )
